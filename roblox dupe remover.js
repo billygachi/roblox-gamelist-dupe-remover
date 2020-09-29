@@ -14,7 +14,7 @@
 (function() {
     function checkDupe(memory, id) {
         if (memory.find(elem => elem === id)) {
-            //console.log("dupe " + id);
+            ///console.log("dupe " + id);
             return true;
         }
         memory.push(id);
